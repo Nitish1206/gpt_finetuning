@@ -1,0 +1,111 @@
+prompt,completion
+"Report on expalinable_ai
+
+###
+
+"," 
+To Understand Apply  Explainable  AI tools.  
+ 
+ 
+Tool 1: AIX360  
+Pre-Processing  
+For GLRM predict medical expenses person. So  Medical expenses act 
+our Target Variable rest variables act features.  
+We split data training testing data.  
+ 
+ 
+ As seen histogram, conclude Health Expenditure values Right Tailed. 
+So know people spend lot healthcare 
+labeled “High Cost Patients”.  
+ 
+The distribution long heavy tail consisting high -cost individuals. This manifests 
+in  mean five times median , standard deviation three times mean , 
+and costly individuals running hundreds thousands dollars.  
+ 
+After spli tting data training testing parts, take categorical features used 
+prediction.  
+The two algorithms LinRR BRCG (Boolean Rule Column Generator) require non -binary 
+features binarized using provided FeatureBinarizer  class. W e list features 
+considered categorical, use default 9 quantile thresholds (i.e. 10 bins) binarize ordinal 
+(including continuous -valued) features, include negations (e.g. '>' comparisons well '<='), 
+and also return stan dardized versions original unbinarized ordinal features, used 
+by LinRR BRCG.  
+ 
+ 
+ 
+Feature Binarizer: Binarize data (set feature values 0 1) according threshold.  
+Values greater threshold map 1, values les equal threshold map 
+0. With default threshold 0, positive values map 1. This required step 
+estimators use boolean random variables.  
+Linear Rule Regression: It regression model uses rule based fea tures, parameters 
+as lambda0 lambda1 used penalize number rules used model.  
+Baseline:  
+ We consider baseline model works complexity. General Gradient 
+Boosting Regressor works well prediction continuous values. We use  
+data binarized.  
+ 
+The value R^2 Training 51%  value R^2 Testing 13%. There huge 
+difference training testing values R2 score. This indicates Overfitting.  
+Moreover, R2 score Testing 13% indicates problem complex 
+difficult explai n.  
+Generalized Linear Rule Models (GLRM)  
+We use Linear Rule Regression problem predicting healthcare expenditure 
+"
+"Report on prolog_covid_support
+
+###
+
+","1 
+ AI Evaluation – III 
+Medical Expert System - Covid -19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Submitted –  
+Group 5 
+Tejas Kumar  2203024055  
+Nitish Jha  22030242068  
+ 
+  
+ 2 
+ Abstract  
+The provided prolog file Expert System COVID -19 diagnosis. It allows user 
+input symptoms, check symptoms, perform temperature check, perform checkup 
+diagnose patient COVID -19. The provided  report highlights main predicates  
+the program highlights meant  module.  
+Aim report provide understanding expert system predicates used 
+it. The report two section s, first section contains predicate clauses  code 
+snippets provide explanation , second section showcases exploration 
+features provide ES .   
+The Expert System derived GitHub repository Rojay White , credits 
+work goes him. As per instructions mentioned Read.md repository Moh Project 
+file used.  
+   3 
+ Section 1: Predicates  Clauses Explan ation  
+Post making code executable Prolog following 12 predicates identified  
+dynamic(symptom/1).  
+In Prolog, dynamic/1 Prolog provides powerful mechanism dynamically modifying 
+predicate database runtime, useful wide range applications, including 
+medical diagnosis systems, expert systems, natural language processing systems.  Its 
+intended use program interact assert retract systems. Which would 
+allowed  
+Symptom/1 predicate name predicate want make dynamic, arity 
+number arguments predicate takes.  
+For example, suppose predicate called symptom/2 represents symptom 
+its severity. You make predicate dynamic using dynamic/1 predicate like this:  
+dynamic (symptom/2 ). 
+symptom(none).  
+It predicate fact, indicates recorded symptoms 
+patient.  
+menu.  
+The menu clause program stated GUI component. In giv en code, menu 
+a Prolog predicate displays list options user prompts choice. The user's 
+choice used execute corresponding action calling another predicate.  
+The menu predicate defined using Prolog's built -in write read predicates display text 
+and read input user. It uses series conditional statements (using ->) check 
+user's choice execute ap"
